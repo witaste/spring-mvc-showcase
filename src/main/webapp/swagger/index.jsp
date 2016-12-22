@@ -28,6 +28,9 @@
  <script src='swagger/lib/jsoneditor.min.js' type='text/javascript'></script>
  <script src='swagger/lib/marked.js' type='text/javascript'></script>
  <script src='swagger/lib/swagger-oauth.js' type='text/javascript'></script>
+ <!--中文支持 -->
+ <script src='swagger/lang/translator.js' type="text/javascript"></script>
+ <script src='swagger/lang/zh-cn.js' type="text/javascript"></script>
 <script type="text/javascript">
     $(function () {
       var url = window.location.search.match(/url=([^&]+)/);
